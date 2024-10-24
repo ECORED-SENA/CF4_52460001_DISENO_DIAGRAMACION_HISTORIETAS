@@ -15,34 +15,157 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Derechos de autor y métodos de impresión',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        '<b> Objetivo:</b> Identificar los derechos de autor, licencias Creative Commons, métodos de impresión, tipos de encuadernación y normativas relacionadas con la publicación de historietas.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Texto pregunta 1 con <strong>Negrita</strong> <em>Itálica</em>.',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Qué tipo de derechos se relacionan con los beneficios económicos derivados de la utilización de una obra?',
+          imagen: require('@/assets/actividad/1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<strong>Negrita</strong> <em>Itálica</em>',
+              texto: 'Derechos patrimoniales.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Opción 4', esCorrecta: false },
+            { id: 'b', texto: 'Derechos morales.', esCorrecta: false },
+            { id: 'c', texto: 'Creative Commons.', esCorrecta: false },
+            { id: 'd', texto: 'Derechos de reproducción.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto: 'Texto pregunta 2',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          texto:
+            '¿Qué tipo de impresión es más adecuada para grandes tirajes y costos más bajos por unidad?',
+          imagen: require('@/assets/actividad/2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Impresión digital.', esCorrecta: false },
+            { id: 'b', texto: 'Impresión litográfica.', esCorrecta: true },
+            { id: 'c', texto: 'Impresión sublimada.', esCorrecta: false },
+            { id: 'd', texto: 'Impresión por tampografía.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto: '¿Cuál es una ventaja importante de la impresión digital?',
+          imagen: require('@/assets/actividad/3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Genera residuos químicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El material está disponible de inmediato.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Es más costosa.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Requiere preimpresión con planchas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué tipo de encuadernación es comúnmente usada en novelas gráficas cortas?',
+          imagen: require('@/assets/actividad/4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Encuadernación con tapa dura.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Encuadernación rústica.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Encuadernación en <i>wire-o.</i>',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Encuadernación artesanal.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál es el registro internacional para identificar publicaciones seriadas?',
+          imagen: require('@/assets/actividad/1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'ISBN.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'ISSN.', esCorrecta: true },
+            { id: 'c', texto: 'Creative Commons.', esCorrecta: false },
+            { id: 'd', texto: 'Derechos patrimoniales.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Qué tipo de licencias permiten compartir obras con ciertos derechos reservados?',
+          imagen: require('@/assets/actividad/2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Derechos patrimoniales.', esCorrecta: false },
+            { id: 'b', texto: 'Derechos morales.', esCorrecta: false },
+            { id: 'c', texto: 'Creative Commons.', esCorrecta: true },
+            { id: 'd', texto: 'Derechos de reproducción.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué se recomienda utilizar para proyectos con gráficos limpios y de alta calidad?',
+          imagen: require('@/assets/actividad/3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Impresión en negro y un color adicional.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Impresión a policromía.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Impresión con <i>hot stamping.</i>',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Impresión lenticular.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto:
+            'Las leyes colombianas protegen las ideas y los métodos mediante el derecho de autor.',
+          imagen: require('@/assets/actividad/4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Falso', esCorrecta: true },
@@ -52,15 +175,27 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 3,
-          texto: 'Texto pregunta 3',
-          imagen: require('@/assets/componentes/pregunta_3.png'),
-          barajarRespuestas: false,
+          id: 9,
+          texto:
+            'La encuadernación artesanal es generalmente más económica que otros tipos de encuadernación.',
+          imagen: require('@/assets/actividad/1.png'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Todas las anteriores', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto:
+            'Las historietas no están protegidas por los derechos de autor según las leyes colombianas.',
+          imagen: require('@/assets/actividad/2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

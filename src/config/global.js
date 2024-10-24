@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Publicación de historietas',
+    descripcionCurso:
+      'El componente formativo aborda los derechos de autor, la propiedad intelectual y las licencias Creative Commons en la publicación de historietas. Explica métodos de impresión (digital, litográfica, sublimado) y tipos de encuadernación (rústica, tapa dura, <i>wire-o</i>). También incluye consideraciones sobre el presupuesto, registro ISSN e ISBN, y el control de calidad en las publicaciones.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/4.png'),
       },
     ],
   },
@@ -31,13 +40,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Políticas sobre derechos de autor y propiedad intelectual ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Creative Commons (CC)',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Derechos de autor',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +59,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Métodos de impresión y producción',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Otras técnicas de impresión',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos de encuadernados y acabados',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Publicaciones impresas',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +128,115 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Políticas sobre derechos de autor y propiedad intelectual.',
+      referencia:
+        'Bibliotecas Duoc UC (2018). Propiedad Intelectual (Derecho de Autor y Propiedad Industrial). [Archivo de video] YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=tgDVLvTen5Y',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Creative Commons (CC).',
+      referencia: 'Creative Commons. (2024). Licencias.',
+      tipo: 'Página',
+      link: 'https://co.creativecommons.net/tipos-de-licencias/',
+    },
+    {
+      tema: 'Derechos de autor.',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2021). Derechos de autor. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uKZZxlT4F5M',
+    },
+    {
+      tema: 'Métodos de impresión y producción.',
+      referencia:
+        'Richie Blared. (2021).Sistemas de Impresión - TECNOLOGÍA GRÁFICA.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fUqGlGFSQgo',
+    },
+    {
+      tema: 'Tipos de encuadernados y acabados.',
+      referencia:
+        'Crehana. (2020).   ENCUADERNAR LIBROS: Tipos de Encuadernación. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=c0w3vMnUJZ8',
+    },
+    {
+      tema: 'Publicaciones impresas.',
+      referencia:
+        'Autores Editores . (2019). ¿Qué es y para que sirve un ISBN? [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XXONgFysi6Q',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Creative Commons',
+      significado:
+        'licencias que permiten compartir obras con ciertos derechos reservados.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Derechos de autor',
+      significado:
+        'protección legal para obras creativas como música, literatura y cine.',
+    },
+    {
+      termino: 'Derechos morales',
+      significado:
+        'vínculo personal del autor con su obra, inalienables y perpetuos.',
+    },
+    {
+      termino: 'Encuadernación artesanal',
+      significado:
+        'tipo de encuadernación personalizada, de proceso manual y más costosa.',
+    },
+    {
+      termino: 'Encuadernación rústica',
+      significado:
+        'encuadernación de tapa blanda, económica y utilizada en proyectos cortos.',
+    },
+    {
+      termino: 'Impresión digital',
+      significado:
+        'método de impresión directa desde un archivo digital sin preimpresión.',
+    },
+    {
+      termino: 'Impresión litográfica',
+      significado:
+        'proceso de impresión para grandes tirajes a menor costo unitario.',
+    },
+    {
+      termino: 'ISBN',
+      significado:
+        'Número de identificación internacional para libros, impresos o digitales.',
+    },
+    {
+      termino: 'ISSN',
+      significado:
+        'Número de identificación para publicaciones seriadas, como revistas.',
+    },
+    {
+      termino: 'Propiedad intelectual',
+      significado:
+        'derechos sobre creaciones del ingenio humano, como patentes y marcas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Creative Commons. (2024). Licencias.',
+      link: 'https://co.creativecommons.net/tipos-de-licencias/',
+    },
+    {
+      referencia:
+        'Gubern, R. (1972). El lenguaje de los cómics. Barcelona, Península.',
+    },
+    {
+      referencia:
+        'McCloud, S. (2005). Entender el cómic. El arte invisible. Bilbao, Astiberri.',
+    },
+    {
+      referencia:
+        'McCloud, S. (2007). Hacer cómics: secretos narrativos del cómic, el manga y la novela gráfica. Bilbao, Astiberri.',
     },
   ],
   creditos: [
@@ -150,8 +259,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Hernán Mauricio Rodríguez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Diseño e Innovación Tecnológica Industrial - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +275,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
