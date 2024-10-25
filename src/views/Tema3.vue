@@ -28,7 +28,7 @@
 
     .row.justify-content-center.align-items-center.mb-4 
       .col-lg-8.my-3.order-1
-        p(data-aos="fade-down") Las características particulares de cada trabajo, como la calidad de impresión, el tipo de soporte, el destino final y el número de copias, deben considerarse al elegir la impresión más apropiada y sus acabados, tales como el plastificado mate o brillante, repujados, relieves y detalles con foil metalizado.
+        p(data-aos="fade-down") Las características particulares de cada trabajo, como la calidad de impresión, el tipo de soporte, el destino final y el número de copias, deben considerarse al elegir la impresión más apropiada y sus acabados, tales como el plastificado mate o brillante, repujados, relieves y detalles con #[i foil] metalizado.
         .row.justify-content-center
           .col-lg-5.my-lg-0.my-md-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/51.png', alt='') 
@@ -62,7 +62,7 @@
       .col-lg-5.my-3
         .bg2.brad.h-100.p-4(data-aos="fade-right")
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/56.png', alt='')
-          p(data-aos="fade-down") #[b ISBN:] (International Standard Book Number) Sistema Internacional de Numeración para Publicaciones de tipo libro, que permite identificar cada título, ya sea impreso o digital, de acuerdo con su procedencia y el número del editor. En Colombia, el ISBN es otorgado por la Cámara Colombiana del Libro.
+          p(data-aos="fade-down") #[b ISBN:] (#[i International Standard Book Number]) Sistema Internacional de Numeración para Publicaciones de tipo libro, que permite identificar cada título, ya sea impreso o digital, de acuerdo con su procedencia y el número del editor. En Colombia, el ISBN es otorgado por la Cámara Colombiana del Libro.
 
 </template>
 

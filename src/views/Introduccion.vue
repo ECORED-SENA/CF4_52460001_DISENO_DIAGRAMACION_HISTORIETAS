@@ -18,7 +18,7 @@
           .col-lg-7.my-lg-0.my-md-3.j1
             .p-3
               img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/2.png', alt='')
-              p(data-aos="fade-down").mb-0 Se abordan los diversos métodos de impresión y producción de historietas, desde la impresión digital hasta la litográfica, así como otras técnicas especializadas. Estos procesos son esenciales para elegir el formato adecuado según las características del proyecto su audiencia. 
+              p(data-aos="fade-down").mb-0 Se abordan los diversos métodos de impresión y producción de historietas, desde la impresión digital hasta la litográfica, así como otras técnicas especializadas. Estos procesos son esenciales para elegir el formato adecuado según las características del proyecto y su audiencia.
                           
       .col-lg-3.my-3.order-lg-2
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.png', alt='')
