@@ -98,7 +98,7 @@
                     .row.justify-content-center.mb-3
                       .col-auto.bgt.px-3.py-1                        
                         h5.mb-0.text-center CC BY-SA
-                    p.mb-0 Se permite la reproducción total o parcial, la distribución, la comunicación pública de la obra y la creación de obras derivadas, incluso con fines comerciales, siempre y cuando éstas se distribuyan bajo la misma licencia que regula la obra original y se reconozca la autoridad de la obra original. 
+                    p.mb-0 Se permite la reproducción total o parcial, la distribución, la comunicación pública de la obra y la creación de obras derivadas, incluso con fines comerciales, siempre y cuando estas se distribuyan bajo la misma licencia que regula la obra original y se reconozca la autoridad de la obra original. 
 
                   .bgw.sha.brad1.p-4.h-100
                     .row.justify-content-center.mb-3

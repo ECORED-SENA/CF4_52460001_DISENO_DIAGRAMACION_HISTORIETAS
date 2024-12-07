@@ -25,7 +25,7 @@
 
           .row.justify-content-center(titulo="Material")
             .col-lg-8.my-3
-              p Permite seleccionar los materiales adecuados para el cuadernillo y la portada de la historieta
+              p Permite seleccionar los materiales adecuados para el cuadernillo y la portada de la historieta.
             .col-lg-4.my-3
               img.img-a.img-t(src='@/assets/curso/temas/26.png', alt='') 
 

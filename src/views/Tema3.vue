@@ -57,7 +57,7 @@
       .col-lg-5.my-3
         .bg2.brad.h-100.p-4(data-aos="fade-left")
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/55.png', alt='')
-          p(data-aos="fade-down") #[b ISSN:] Número Internacional Normalizado para Publicaciones Seriadas, creado por la Organización Internacional de Normalización (ISO) y gestionado por el Centro Internacional de ISSN, una organización intergubernamental. En Colombia, el Centro Nacional de ISSN, adscrito a la Biblioteca Nacional de Colombia, es el encargado de asignar los números ISSN a las publicaciones seriadas producidas en el paí
+          p(data-aos="fade-down") #[b ISSN:] Número Internacional Normalizado para Publicaciones Seriadas, creado por la Organización Internacional de Normalización (ISO) y gestionado por el Centro Internacional de ISSN, una organización intergubernamental. En Colombia, el Centro Nacional de ISSN, adscrito a la Biblioteca Nacional de Colombia, es el encargado de asignar los números ISSN a las publicaciones seriadas producidas en el país.
 
       .col-lg-5.my-3
         .bg2.brad.h-100.p-4(data-aos="fade-right")

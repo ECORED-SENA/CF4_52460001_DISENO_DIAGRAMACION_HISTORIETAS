@@ -150,7 +150,7 @@ export default {
     {
       tema: 'Métodos de impresión y producción.',
       referencia:
-        'Richie Blared. (2021).Sistemas de Impresión - TECNOLOGÍA GRÁFICA.',
+        'Richie Blared. (2021). Sistemas de Impresión - TECNOLOGÍA GRÁFICA.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=fUqGlGFSQgo',
     },
@@ -276,7 +276,7 @@ export default {
       autores: [
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador de contenidos',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -291,17 +291,17 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
